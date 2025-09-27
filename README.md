@@ -1,7 +1,3 @@
-# pizza-bi-project
-Mini Data Warehouse project with ETL, SQL, and Power BI using Pizza Sales dataset
-
-
 # 🍕 Pizza Data Warehouse Project
 
 ## 🎯 Objectif du projet
@@ -29,7 +25,7 @@ Il simule un cas réel où une entreprise de restauration souhaite analyser ses 
 
 ## 🗂️ Structure du repo
 
-'''
+```text
 pizza-bi-project/
 │── data/ # Fichiers CSV (source + clients fictifs)
 │── sql/ # Schéma SQL (create_schema.sql)
@@ -37,7 +33,7 @@ pizza-bi-project/
 │── bi/ # Dashboard Power BI ou captures d’écran
 │── docs/ # Documentation (roadmap, Gantt, diagrammes)
 │── README.md # Présentation du projet
-'''
+```
 
 
 ## 🛣️ Roadmap (provisoire)
