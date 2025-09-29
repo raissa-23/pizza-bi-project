@@ -37,12 +37,17 @@ pizza-bi-project/
 
 
 ## 🛣️ Roadmap (provisoire)
-- [ ] Collecte et préparation des données (pizza_sales.csv + clients.csv)  
+- [X] Collecte et préparation des données (pizza_sales.csv + clients.csv)  
 - [ ] Modélisation du schéma en étoile (SQL)  
 - [ ] Développement du pipeline ETL (Python)  
 - [ ] Création du Data Warehouse (PostgreSQL/SQLite)  
 - [ ] Tableaux de bord Power BI  
 - [ ] Documentation finale + screenshots  
+
+## 📂 Datasets disponibles
+
+- **pizza_sales.csv** : dataset des ventes de pizzas (source Kaggle).
+- **clients.csv** : dataset fictif généré (9 000 clients) avec noms, prénoms, genre, âge, email, téléphone, pays, ville, code postal.
 
 ---
 🚀 Projet en cours de développement
