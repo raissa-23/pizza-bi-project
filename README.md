@@ -51,8 +51,6 @@ pizza-bi-project/
 - **clients.csv** : dataset fictif généré (9 000 clients) avec noms, prénoms, genre, âge, email, téléphone, pays, ville, code postal.
 
 ## Diagramme du schéma en étoile de notre Data Warehouse
-
-<div style="zoom: 80%;">
     
 ```mermaid
 erDiagram
