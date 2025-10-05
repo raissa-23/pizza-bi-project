@@ -44,6 +44,16 @@ pizza-bi-project/
 - [ ] Tableaux de bord Power BI  
 - [ ] Documentation finale + screenshots
 
+
+## 📂 Datasets disponibles
+
+- **pizza_sales.csv** : dataset des ventes de pizzas (source Kaggle).
+- **clients.csv** : dataset fictif généré (9 000 clients) avec noms, prénoms, genre, âge, email, téléphone, pays, ville, code postal.
+
+## Diagramme du schéma en étoile de notre Data Warehouse
+
+<div style="zoom: 80%;">
+    
 ```mermaid
 erDiagram
     dim_client {
@@ -90,12 +100,8 @@ erDiagram
     dim_client ||--o{ fact_ventes : "client_id"
     dim_pizza ||--o{ fact_ventes : "pizza_id"
     dim_temps ||--o{ fact_ventes : "date_id"
+</div>
 ```
-
-## 📂 Datasets disponibles
-
-- **pizza_sales.csv** : dataset des ventes de pizzas (source Kaggle).
-- **clients.csv** : dataset fictif généré (9 000 clients) avec noms, prénoms, genre, âge, email, téléphone, pays, ville, code postal.
 
 ---
 🚀 Projet en cours de développement
