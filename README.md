@@ -98,7 +98,6 @@ erDiagram
     dim_client ||--o{ fact_ventes : "client_id"
     dim_pizza ||--o{ fact_ventes : "pizza_id"
     dim_temps ||--o{ fact_ventes : "date_id"
-</div>
 ```
 
 ---
