@@ -42,7 +42,55 @@ pizza-bi-project/
 - [ ] Développement du pipeline ETL (Python)  
 - [ ] Création du Data Warehouse (PostgreSQL/SQLite)  
 - [ ] Tableaux de bord Power BI  
-- [ ] Documentation finale + screenshots  
+- [ ] Documentation finale + screenshots
+
+```mermaid
+erDiagram
+    dim_client {
+        int client_id PK
+        string nom
+        string prenom
+        string genre
+        int age
+        string email
+        string telephone
+        string pays
+        string ville
+        string code_postal
+    }
+
+    dim_pizza {
+        int pizza_id PK
+        string nom_pizza
+        string categorie
+        string taille
+        float prix_unitaire
+        string ingredients
+    }
+
+    dim_temps {
+        int date_id PK
+        date date
+        int jour
+        int mois
+        int trimestre
+        int annee
+        string jour_semaine
+    }
+
+    fact_ventes {
+        int vente_id PK
+        int client_id FK
+        int pizza_id FK
+        int date_id FK
+        int quantite
+        float total_prix
+    }
+
+    dim_client ||--o{ fact_ventes : "client_id"
+    dim_pizza ||--o{ fact_ventes : "pizza_id"
+    dim_temps ||--o{ fact_ventes : "date_id"
+
 
 ## 📂 Datasets disponibles
 
