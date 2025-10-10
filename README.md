@@ -42,9 +42,9 @@ pizza-bi-project/
 
 ## 🛣️ Roadmap (provisoire)
 - [X] Collecte et préparation des données (pizza_sales.csv + clients.csv)  
-- [ ] Modélisation du schéma en étoile (SQL)  
-- [ ] Développement du pipeline ETL (Python)  
-- [ ] Création du Data Warehouse (PostgreSQL/SQLite)  
+- [X] Modélisation du schéma en étoile (SQL)  
+- [X] Développement du pipeline ETL (Python)  
+- [X] Création du Data Warehouse (PostgreSQL/SQLite)  
 - [ ] Tableaux de bord Power BI  
 - [ ] Documentation finale + screenshots
 
